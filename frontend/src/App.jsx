@@ -12,7 +12,14 @@ function App() {
     <>
       <Header />
       <Footer /> 
-      <Card />
+      <div className="card-container">
+
+
+      <Card name="Jeet"/>
+      <Card name="eren"/>
+      <Card name="nvim"/>
+      </div>
+
     
     </>
   );
